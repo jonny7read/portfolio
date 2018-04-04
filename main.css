@@ -1,0 +1,16 @@
+h1 {
+  background-color: #4B9DA2;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 2em;
+  padding: 5px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.main {
+  text-align: center;
+  font-family: "Verdana";
+}
