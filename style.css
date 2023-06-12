@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #eee;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/1703314/pexels-photo-1703314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ccc;
+}
+h1 {
+  font-size: 2em;
+  padding: 5px;
+  width: fit-content;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  font-weight: bold;
+}
+header a, footer a {
+  text-decoration: none;
+  color: white;
+}
+p {
+  padding: 5px;
+}
+.navbar {
+  padding: 5px;
+}
+.navbar-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+header, footer {
+  width: 100vw;
+  background: #333;
+}
+header {
+  position: sticky;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  padding: 1vw;
+}
+.socials a {
+  font-size: 2em;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  transition: .2s all;
+  padding: 5px;
+}
+.socials a:hover {
+  color: var(--color);
+  background: white;
+}
+.social-name {
+  display: none;
+}
+
+.fa-envelope {
+  --color: #333;
+}
+.fa-github {
+  --color: #304880;
+}
+.fa-facebook {
+  --color: #3B5998;
+}
+.fa-twitter {
+  --color: #55ACEE;
+}
+.fa-google {
+  --color: #dd4b39;
+}
+.fa-linkedin {
+  --color: #007bb5;
+}
+.fa-youtube {
+  --color: #bb0000;
+}
+.fa-instagram {
+  --color: #125688;
+}
+.fa-pinterest {
+  --color: #cb2027;
+}
+.fa-reddit {
+  --color: #ff5700;
+}

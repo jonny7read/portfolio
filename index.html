@@ -3,28 +3,48 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Home - Web Portfolio of Jonathan Read</title>
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="./">Home</a></li>
-          <li><a href="blog/">Blog</a></li>
-          <li><a href="projects/">Projects</a></li>
-          <li><a href="contact/">Contact</a></li>
+    <header>
+      <div class="navbar">
+        <ul class="navbar-list">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
-    </div>
+    </header>
+    
+    <div class="background-image"></div>
+    <article>
+      <section id="home">
+        <h1>Jonathan Read</h1>
+        <h2>Senior Software Engineer - ASP</h2>
+      </section>
 
-    <div class="main">
-      <h1>The Web portfolio of Jonathan Read</h1>
-      <h2>Welcome!</h2>
-      <p>Welcome to my portfolio. This is my first HTML web page.</p>
-      <img src="images/thumbs-up-cartoon.jpg" alt="thumbs-up-cartoon" width="25%" height="25%">
-      <p>Enjoy!</p>
-    </div>
+      <section id="blog">
+        <h2>Blog</h2>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>The best way to get hold of me is to email me at <a href="mailto:jonny7read@gmail.com">jonny7read@gmail.com</a></p>
+      </section>
+    </article>
+
+    <footer>
+      <div class="socials">
+        <a href="mailto:jonny7read@gmail.com" class="fa fa-envelope"><span class="social-name">Email</span></a>
+        <a href="http://github.com/jonny7read" class="fa fa-github"><span class="social-name">GitHub</span></a>
+        <a href="https://www.facebook.com/jonny7read" class="fa fa-facebook"><span class="social-name">Facebook</span></a>
+        <a href="https://twitter.com/jonny7read" class="fa fa-twitter"><span class="social-name">Twitter</span></a>
+        <a href="https://www.linkedin.com/in/jonathan-read/" class="fa fa-linkedin"><span class="social-name">LinkedIn</span></a>
+        <a href="https://www.youtube.com/jonny7read" class="fa fa-youtube"><span class="social-name">YouTube</span></a>
+        <a href="https://www.instagram.com/jonny7read/" class="fa fa-instagram"><span class="social-name">Instagram</span></a>
+      </div>
+    </footer>
   </body>
 </html>
