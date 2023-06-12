@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', sans-serif;
   text-align: center;
@@ -16,6 +18,18 @@ h1 {
   padding: 5px;
   width: fit-content;
   margin: auto;
+}
+
+header, footer {
+  width: 100vw;
+  background: #333;
+}
+header {
+  position: sticky;
+}
+footer {
+  position: absolute;
+  bottom: 0;
 }
 
 ul {
@@ -37,17 +51,6 @@ p {
   justify-content: space-around;
 }
 
-header, footer {
-  width: 100vw;
-  background: #333;
-}
-header {
-  position: sticky;
-}
-footer {
-  position: absolute;
-  bottom: 0;
-}
 
 .socials {
   display: flex;
